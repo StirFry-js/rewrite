@@ -1,0 +1,39 @@
+{
+  "name": "stirfry",
+  "version": "1.6.6",
+  "description": "StirFry is a self contained and easy to use web framework.",
+  "main": "lib/stirfry.js",
+  "types": "lib/stirfry.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "http://www.github.com/squishybanana04/stirfry.git"
+  },
+  "keywords": [
+    "Web",
+    "Framework",
+    "StirFry"
+  ],
+  "scripts": {
+    "test": "node_modules/.bin/mocha -w --recursive"
+  },
+  "author": "Alex Waese-Perlman",
+  "license": "MIT",
+  "dependencies": {
+    "path-to-regexp": "^1.5.0",
+    "require-main-filename": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.31",
+    "chai": "^4.0.2",
+    "eslint": "^3.19.0",
+    "eslint-plugin-import": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^4.3.1",
+    "gulp-typescript": "^3.1.7",
+    "merge2": "^1.0.3",
+    "mocha": "^3.4.2",
+    "pem": "^1.9.4",
+    "request": "^2.81.0",
+    "typescript": "^2.3.4"
+  }
+}

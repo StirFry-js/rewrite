@@ -1,0 +1,6 @@
+coverage
+gulpfile.js
+package-lock.json
+src
+test
+tsconfig.json
